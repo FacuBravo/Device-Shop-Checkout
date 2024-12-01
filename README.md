@@ -6,11 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="{https://your-demo-link.your-domain}">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="{https://your-url-to-the-solution}">
+    <a href="https://facubravo.github.io/Device-Shop-Checkout/html/index.html">
       Solution
     </a>
     <span> | </span>
@@ -21,8 +17,6 @@
 </div>
 
 ### Built with
-
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - Semantic HTML5 markup
 - CSS custom properties
