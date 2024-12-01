@@ -1,12 +1,101 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../resources/css/style.css">
+    <link rel="shortcut icon" href="../resources/images/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
-    
+    <header>
+        <h1>Checkout</h1>
+        <span>3 items</span>
+    </header>
+
+    <main>
+        <section class="products_section">
+            <section class="products">
+                <article class="product">
+                    <div class="product_img">
+                        <img src="../resources/images/Gold.png" alt="iPhone 12 Pro">
+                    </div>
+
+                    <div class="product_info">
+                        <h3 class="name">iPhone 12 Pro</h3>
+                        <span class="price">$999.00</span>
+                        <span class="color">Golden</span>
+                        <span class="quantity">x 1</span>
+                        <button class="cross"></button>
+                    </div>
+                </article>
+
+                <article class="product">
+                    <div class="product_img">
+                        <img src="../resources/images/Apple-watch.png" alt="Apple Watch">
+                    </div>
+
+                    <div class="product_info">
+                        <h3 class="name">Apple Watch</h3>
+                        <span class="price">$399.00</span>
+                        <span class="color">Blue</span>
+                        <span class="quantity">x 1</span>
+                        <button class="cross">
+                            <div></div>
+                            <div></div>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="product">
+                    <div class="product_img">
+                        <img src="../resources/images/iMac.png" alt="iMac">
+                    </div>
+
+                    <div class="product_info">
+                        <h3 class="name">iMac</h3>
+                        <span class="price">$1199.00</span>
+                        <span class="color">Green</span>
+                        <span class="quantity">x 1</span>
+                        <button class="cross">
+                            <div></div>
+                            <div></div>
+                        </button>
+                    </div>
+                </article>
+            </section>
+
+            <div class="dividing_line"></div>
+
+            <section class="prices_section">
+                <form class="coupon_form">
+                    <input type="text" placeholder="Enter coupon code">
+                    <button>Apply Coupon</button>
+                </form>
+
+                <article class="prices">
+                    <div>
+                        <span>Sub total</span>
+                        <span>$2597.00</span>
+                    </div>
+                    <div>
+                        <span>Tax</span>
+                        <span>$623.28</span>
+                    </div>
+                    <div class="total_price">
+                        <span>Total</span>
+                        <span>$3220.28</span>
+                    </div>
+                </article>
+            </section>
+        </section>
+
+        <section class="payment_section">
+
+        </section>
+    </main>
 </body>
+
 </html>
