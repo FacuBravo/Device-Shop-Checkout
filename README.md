@@ -38,4 +38,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Author
 
-- GitHub [@your-username](https://github.com/FacuBravo)
+- GitHub [@FacuBravo](https://github.com/FacuBravo)
