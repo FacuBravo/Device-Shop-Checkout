@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Device Shop Checkout</title>
     <link rel="stylesheet" href="../resources/css/style.css">
     <link rel="shortcut icon" href="../resources/images/favicon.ico" type="image/x-icon">
 </head>
@@ -16,7 +16,7 @@
     </header>
 
     <main>
-        <section class="products_section">
+        <section class="summary_section">
             <section class="products">
                 <article class="product">
                     <div class="product_img">
@@ -72,7 +72,7 @@
             <section class="prices_section">
                 <form class="coupon_form">
                     <input type="text" placeholder="Enter coupon code">
-                    <button>Apply Coupon</button>
+                    <button class="primary_button">Apply Coupon</button>
                 </form>
 
                 <article class="prices">
@@ -92,10 +92,51 @@
             </section>
         </section>
 
-        <section class="payment_section">
+        <section class="contact_section">
+            <h2>Contact Information</h2>
 
+            <form class="contact_form">
+                <div class="input_container">
+                    <label for="name">First & Last name</label>
+                    <input class="primary_input" type="text" id="name" name="name" placeholder="Enter first & last name"
+                        required autocomplete="off">
+                </div>
+
+                <div class="input_container">
+                    <label for="email">Email Address</label>
+                    <input class="primary_input" type="email" id="email" name="email" placeholder="Enter email address"
+                        required autocomplete="off">
+                </div>
+
+                <div class="inputs_container">
+                    <div class="input_container">
+                        <label>Country</label>
+                        <div class="primary_input custom_select" id="country">
+                            <span class="selected" data-value="fin">Finland</span>
+
+                            <ul class="options">
+                                <li class="option" data-value="fin">Finland</li>
+                                <li class="option" data-value="arg">Argentina</li>
+                                <li class="option" data-value="usa">United States</li>
+                            </ul>
+
+                            <img class="arrow" draggable="false" src="../resources/images/arrow.svg" alt="Arrow">
+                        </div>
+                    </div>
+
+                    <div class="input_container">
+                        <label for="postal_code">Postal Code</label>
+                        <input class="primary_input" type="number" id="postal_code" name="postal_code"
+                            placeholder="00270" required autocomplete="off">
+                    </div>
+                </div>
+
+                <button class="primary_button">Continue</button>
+            </form>
         </section>
     </main>
+
+    <script src="../resources/js/script.js"></script>
 </body>
 
 </html>
